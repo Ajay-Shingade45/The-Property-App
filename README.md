@@ -1,16 +1,47 @@
-# React + Vite
+**TheProperty WebApp**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Property Web Application is a frontend web platform developed using React JS that allows users to explore real estate properties such as houses, flats, and commercial spaces. The application provides a clean and responsive user interface for browsing properties, viewing details, and submitting property enquiries.
+This project is designed using a component-based architecture and focuses on performance, usability, and modern frontend development practices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Property listing with images and details
+-Property detail page
+-Search and filter properties
+-Responsive UI for mobile, tablet, and desktop
+-Navigation using React Router
+-Reusable React components
+-Contact / enquiry form
+-Clean and user-friendly design
 
-## React Compiler
+## Tools and Technologies used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.React JS
+2.JavaScript
+3.HTML5
+4.CSS3
+5.React Router DOM
+6.Git & GitHub
 
-## Expanding the ESLint configuration
+## Install dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Project
+npm run dev 
+
+## Screenshot
+### Home Page
+![] (./screenshot/home-top.png)
+![] (./screenshot/home-bottom.png)
+
+### Properties
+![] (./screenshot/property.png)
+
+### Agents 
+![] (./screenshot/agents.png)
+
+### Contact
+![] (./screenshot/contact.png)
+
+## Developed By
+ Ajay Shingade
