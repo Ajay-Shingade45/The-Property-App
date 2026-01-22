@@ -1,0 +1,132 @@
+.contactComponent {
+    width: 100%;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.contactComponent-map {
+    width: 100%;
+    position: relative;
+}
+
+.contactComponent-map iframe {
+    width: 100%;
+    height: 500px;
+    border: 0;
+    display: block;
+}
+
+.contactComponent-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    margin: -150px auto 0;
+    padding: 91px 60px 50px;
+    max-width: 800px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.contactComponent-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.contactComponent-row {
+    display: flex;
+    gap: 20px;
+}
+
+.contactComponent-row-input {
+    flex: 1;
+}
+
+.contactComponent-container input,
+.contactComponent-container textarea {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 16px;
+    border: 1px solid rgba(17, 24, 39, 0.18);
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    background: #ffffff;
+}
+
+.contactComponent-container input:focus,
+.contactComponent-container textarea:focus {
+    border-color: rgba(59, 130, 246, 0.7);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+.fullWidth{
+    width: 100%;
+}
+
+.contactComponent-textarea{
+    height: 180px;
+}
+
+
+.contactComponent-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.contactComponent-button {
+    border: none;
+    cursor: pointer;
+    padding: 12px 32px;
+    border-radius: 999px;
+    background: #111827;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(17, 24, 39, 0.2);
+}
+
+.contactComponent-button:hover {
+    background: #0b1220;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(17, 24, 39, 0.3);
+}
+
+
+
+@media (max-width: 1024px) {
+    .contactComponent-container {
+        max-width: 95%;
+        width: calc(100% - 60px);
+        padding: 70px 50px 40px;
+    }
+}
+
+@media (max-width: 720px) {
+    .contactComponent-row {
+        flex-direction: column;
+    }
+    
+    .contactComponent-container {
+        margin: -100px auto 0;
+        width: calc(100% - 40px);
+        padding: 60px 24px 30px;
+    }
+    
+    .contactComponent-map iframe {
+        height: 400px;
+    }
+    
+    .contactComponent-form {
+        gap: 20px;
+    }
+    
+    .contactComponent-container input,
+    .contactComponent-container textarea {
+        padding: 14px 16px;
+    }
+}
