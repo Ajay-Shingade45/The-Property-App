@@ -31,17 +31,17 @@ npm run dev
 
 ## Screenshot
 ### Home Page
-![] (./screenshot/home-top.png)
-![] (./screenshot/home-bottom.png)
+![](./screenshot/home-top.png)
+![](./screenshot/home-bottom.png)
 
 ### Properties
-![] (./screenshot/property.png)
+![](./screenshot/property.png)
 
 ### Agents 
-![] (./screenshot/agents.png)
+![](./screenshot/agents.png)
 
 ### Contact
-![] (./screenshot/contact.png)
+![](./screenshot/contact.png)
 
 ## Developed By
  Ajay Shingade
